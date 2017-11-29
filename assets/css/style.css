@@ -1,0 +1,85 @@
+rgba(#8b8b8b, 0.59).top_wrapper {
+  width: 100%;
+  background: #a3d1d4;
+  border-bottom: 5px solid #cccccc;
+}
+
+header {
+  width: 960px;
+  background: #a3d1d4;
+  margin: auto;
+}
+
+h1, h2 {
+font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+float: left;
+background: #1e8288;
+color: #888888;
+font-size: 350%;
+padding: 20px;
+margin-bottom: 0;
+}
+
+.pattern_wrapper {
+  background:#3a3b3b;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+section {
+  position: relative;
+  width: 960px;
+  margin: auto;
+  padding: 5%;
+}
+
+article {
+  width: 650px;
+  background: #a3d1d4;
+  position: relative;
+  text-align: left;
+  padding: 2%;
+  top: 30%
+}
+
+h2 {
+  font-size: 200%;
+  border-bottom: 2px solid #a8a4a2;
+  padding-bottom: 2%;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 150%;
+  color: #fff;
+  border-bottom: 2px solid #a8a4a2;
+  padding-bottom: 2%;
+  margin-bottom: 5px;
+
+}
+aside {
+width; 270px;
+position: absolute;
+padding: 2%;
+text-align: center;
+right: 0;
+background: #a3d1d4;
+top: 30%;
+}
+
+
+.top_wrapper::after,header::after,.pattern_wrapper::after, article::after,aside::after {
+  content: "";
+  display: table;
+  clear: both;
+}

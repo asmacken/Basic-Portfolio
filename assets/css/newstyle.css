@@ -1,0 +1,14 @@
+body {
+  font-family: Georgia, serif;
+  }
+
+
+.top-bar {
+  background: #ffffff;
+}
+
+#name {
+  background: #4aaaa5;
+  color: #777777;
+  font-size: 24px;
+}
