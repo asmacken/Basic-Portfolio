@@ -8,7 +8,6 @@ h1 h2 h3 {
 .top-bar {
   background: #ffffff;
   margin-bottom: 5%;
-
 }
 
 #name {
@@ -25,21 +24,64 @@ h1 h2 h3 {
 .middle-section {
   margin-top: 1%;
   margin-left: 15%;
+  background: #C9EDEC;
 }
 
-#mypic {
+/*#mypic {
   float: left;
 
-}
+}*/
 
 #aboutme {
   font-family: Georgia, Times, "Times New Romans", serif;
   font-size: 28px;
   color: #4aaaa5;
+  margin-bottom: 2%;
 }
 
 #navigation {
   color: #777777;
   float: right;
   text-align: center;
+  margin-right: 10%;
+}
+
+.top-bar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.name::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.aboutme::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content-box::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+width; 270px;
+position: absolute;
+padding: 2%;
+text-align: center;
+right: 0;
+background: #4aaaa5;
+top: 30%;
 }
