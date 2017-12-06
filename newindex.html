@@ -7,48 +7,48 @@
 
   <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
   <link rel="stylesheet" href="assets/css/newstyle.css">
-
 </head>
 
 <body>
-  <header class="top-bar">
-    <div id="name">
-      Ashley Mackenzie
-    </div>
-
-    <div id="navigation">
-      <a href="newindex.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
+  <header id="top-bar">
+    <div class="topmenu">
+      <a href="newindex.html" id="my-name">Ashley Mackenzie</a>
+      <nav>
+        <a href="newindex.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <div class="middle-section">
+  <div id="middle-section" class="topmenu">
     <section class="content-box">
-      <h2 id="aboutme">About Me</h2>
+      <h1>About Me</h1>
 
-      <img id="mypic" src="assets/images/caseyweddingpic.jpg" alt="My Profile Picture">
+      <img class="mypic" src="assets/images/caseyweddingpic.jpg" alt="My Profile Picture">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Id porta nibh venenatis cras sed. Temp commodo
-        ullamcorper a lacus vestibulum sed arcu non odio. Sit amet luctus venenatis lectus magna. Proin fermentum leo vel orci porta. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna.</p>
+      <p>I earned my BA in Public and Interpersonal Communication from North Carolina State University and my MS in Corporate and Organizational Communication. I've been with Cisco since 2008, and I'm currently a Business Operations Analyst within the Employee
+        Services organization.
+      </p>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Id porta nibh venenatis cras sed.</p>
     </section>
 
-    <aside>
-      <h3>Connect with Me</h3>
+    <section class="sidebox">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-      <a href="https://github.com/asmacken" target="_blank"><img src="assets/images/github_square.png" alt="GitHub profile"></a>
-
-      <a href="#"><img src="assets/images/linkedin.png" alt="LinkedIn profile"></a>
-
-      <a href="https://stackoverflow.com/"><img src="assets/images/overflow.png" alt="stackoverflow"></a>
-    </aside>
-
+          <a href="https://github.com/asmacken" target="_blank"><img class="links" src="assets/images/github_square.png" alt="GitHub profile"></a>
+          <a href="#"><img src="assets/images/linkedin.png" class="links" alt="LinkedIn profile"></a>
+          <a href="https://stackoverflow.com/"><img src="assets/images/overflow.png" class="links" alt="stackoverflow"></a>
+      </div>
+    </section>
   </div>
 
   <footer>
-    Copyright &copy; 2017 Ashley Mackenzie
+    <div class="copyright">
+      Copyright &copy; 2017 Ashley Mackenzie
+    </div>
   </footer>
 
 </body>
